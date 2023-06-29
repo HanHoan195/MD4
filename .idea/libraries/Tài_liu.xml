@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Tài liệu">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tài liệu/Slides-20230626.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Tài liệu/Bộ câu hỏi phỏng vấn-20230626.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
