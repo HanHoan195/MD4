@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <th:block th:replace="layoutdashboard/head"/>
+
+</head>
+
+
+<body class="fixed-left">
+
+<!-- Begin page -->
+<div id="wrapper">
+    <!--        logo-->
+    <th:block th:replace="layoutdashboard/logo"/>
+
+    <!-- ========== Left Sidebar Start ========== -->
+    <th:block th:replace="layoutdashboard/lefftsidebar"/>
+    <!-- Left Sidebar End -->
+
+    <!-- Start right Content here -->
+
+    <div class="content-page">
+        <!-- Start content -->
+        <div class="content">
+
+            <div class="">
+                <div class="page-header-title">
+
+                </div>
+            </div>
+
+            <div class="page-content-wrapper ">
+
+                <div th:if="${success}">
+                    <script>
+                        window.onload = function (){
+                            Swal.fire({
+                                position: 'top-end',
+                                icon: 'success',
+                                title: 'Thêm thành công',
+                                showConfirmButton: false,
+                                timer: 1500
+                            })
+                        }
+                    </script>
+                </div>
+
+                <!-- end row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="m-b-30 m-t-0"> New Customer</h4>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="table-responsive">
+
+                                            <form class="row" th:object="${customer}" method="post">
+                                                <div class="row">
+
+                                                    <div class="col-lg-6">
+                                                        <label for="fullName">Full name</label>
+                                                        <input type="text" class="form-control" name="fullName" id="fullName">
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <label for="email">Email</label>
+                                                        <input type="email" class="form-control" name="email" id="email">
+                                                    </div>
+
+
+                                                    <div class="col-lg-6">
+                                                        <label for="phone">Phone</label>
+                                                        <input type="tel" class="form-control" name="phone" id="phone">
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <label for="phone">Addres</label>
+                                                        <input type="text" class="form-control" name="address" id="address">
+                                                    </div>
+                                                    <div hidden="true" class="row mt-2">
+                                                        <label class="col-2" for="balance">Balance</label>
+                                                        <div class="col-9">
+                                                            <input type="number" name="balance" id="balance" class="form-control" value="0">
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="row mt-3">
+                                                        <div class="col-lg-3">
+                                                            <button type="submit" class="btn btn-outline-success">Create</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+
+
+                </div><!-- container-fluid -->
+
+
+            </div> <!-- Page content Wrapper -->
+
+        </div> <!-- content -->
+
+        <!--        //footer-->
+        <th:block th:replace="layoutdashboard/footer"/>
+
+    </div>
+    <!-- End Right content here -->
+
+</div>
+<!-- END wrapper -->
+
+
+<!-- jQuery  -->
+<th:block th:replace="layoutdashboard/jquery"/>
+
+</body>
+</html>

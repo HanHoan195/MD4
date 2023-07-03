@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <th:block th:replace="layoutdashboard/head"/>
+
+</head>
+
+
+<body class="fixed-left">
+
+<!-- Begin page -->
+<div id="wrapper">
+
+  <!-- Top Bar Start -->
+  <th:block th:replace="layoutdashboard/topbar"/>
+  <!-- Top Bar End -->
+
+
+  <!-- ========== Left Sidebar Start ========== -->
+  <th:block th:replace="layoutdashboard/lefftsidebar"/>
+  <!-- Left Sidebar End -->
+
+  <!-- Start right Content here -->
+
+<!--  <div th:if="${success}">-->
+<!--    <script>-->
+<!--      window.onload = function (){-->
+<!--        Swal.fire({-->
+<!--          title: 'Are you sure?',-->
+<!--          text: "You won't be able to revert this!",-->
+<!--          icon: 'warning',-->
+<!--          showCancelButton: true,-->
+<!--          confirmButtonColor: '#3085d6',-->
+<!--          cancelButtonColor: '#d33',-->
+<!--          confirmButtonText: 'Yes, delete it!'-->
+<!--        }).then((result) => {-->
+<!--          if (result.isConfirmed) {-->
+<!--            Swal.fire(-->
+<!--                    'Deleted!',-->
+<!--                    'Your file has been deleted.',-->
+<!--                    'success'-->
+<!--            )-->
+<!--          }-->
+<!--        })-->
+<!--      }-->
+<!--    </script>-->
+<!--  </div>-->
+
+  <div class="content-page">
+    <!-- Start content -->
+    <div class="content">
+
+      <div class="">
+        <div class="page-header-title">
+          <h4 class="page-title">Dashboard</h4>
+        </div>
+      </div>
+
+      <div class="page-content-wrapper ">
+
+        <!-- end row -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="m-b-30 m-t-0">Recent Contacts</h4>
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="table-responsive">
+                      <table class="table table-hover m-b-0">
+                        <thead>
+                        <tr>
+                          <th>ID</th>
+                          <th>Full Name</th>
+                          <th>Email</th>
+                          <th>Phone</th>
+                          <th>Address</th>
+                          <th>Balance</th>
+                          <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <th:block th:each="item : ${customers}">
+                          <tr>
+                            <td th:text="${item.id}"></td>
+                            <td th:text="${item.fullName}"></td>
+                            <td th:text="${item.email}"></td>
+                            <td th:text="${item.phone}"></td>
+                            <td th:text="${item.address}"></td>
+                            <td th:text="${item.balance}"></td>
+                            <td class="text-center">
+                              <a title="Edit"  th:href="@{/customers/__${item.id}__}"
+                                 class="btn btn-outline-primary">
+                                <i class="fas fa-user-edit"></i>
+                              </a>
+                              <a title="Deposit" th:href="@{/customers/deposit/{id}(id=${item.id})}"
+                                 class="btn btn-outline-secondary">
+                                <i class="fas fa-plus-circle"></i>
+                              </a>
+                              <a title="Withdraw" th:href="@{/customers/withdraw/{id}(id=${item.id})}"
+                                 class="btn btn-outline-success">
+                                <i class="fas fa-minus-circle"></i>
+                              </a>
+                              <a title="Transfer" th:href="@{/customers/transfer/{id}(id=${item.id})}"
+                                 class="btn btn-outline-warning">
+                                <i class="fas fa-exchange-alt"></i>
+                              </a>
+                              <a title="Suspend" th:href="@{/customers/delete/__${item.id}__}"
+                                 class="btn btn-outline-danger">
+                                <i class="fas fa-ban"></i>
+                              </a>
+                            </td>
+                          </tr>
+                        </th:block>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+
+
+        </div><!-- container-fluid -->
+
+
+      </div> <!-- Page content Wrapper -->
+
+    </div> <!-- content -->
+
+    <!--        //footer-->
+    <th:block th:replace="layoutdashboard/footer"/>
+
+  </div>
+  <!-- End Right content here -->
+
+</div>
+<!-- END wrapper -->
+
+
+<!-- jQuery  -->
+<th:block th:replace="layoutdashboard/jquery"/>
+
+</body>
+</html>

@@ -64,7 +64,7 @@
                           <td th:text="${item.getEmail()}"></td>
                           <td th:text="${item.getPhone()}"></td>
                           <td> <a th:href="@{/customers/__${item.id}__}">Edit</a></td>
-                          <td><a th:href="@{/customers/delete?  id=__${item.getId()}__}">delete</a></td>
+                          <td><a th:href="@{/customers/delete?id=__${item.getId()}__}">delete</a></td>
                           <td><a th:href="@{/customers/info?id=__${item.getId()}__}">Info</a></td>
                         </tr>
                         </tbody>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="practice_cutting_layout:war" />
+      <artifact name="practice_cutting_layout:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0961fab2-449a-499e-aa43-1a0edfdddca4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../banking_DB/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/service/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/java/com/cg/service/customer/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/customer/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/customer/temp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/views/layout/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking_DB/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/src/main/java/com/cg/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/src/main/java/com/cg/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/target/classes/com/cg/config/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/target/classes/com/cg/config/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout.war" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout/WEB-INF/classes/com/cg/config/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout/WEB-INF/classes/com/cg/config/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_cutting_layout/target/practice_cutting_layout/WEB-INF/views/customer/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Rn6YWLlV5ii4zLyqMTEOAYA8AB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/MD4/banking_transaction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "spring.configuration.checksum": "065f0755c71ffca3b9cb1c6e9af57428",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MD4\practice_cutting_layout\src\main\webapp\WEB-INF\views\customer" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="practice_cutting_layout:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="42598f85-2bb5-4441-9b03-bb232622e91f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53268" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="practice_cutting_layout:war" />
+          <artifact name="practice_cutting_layout:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0961fab2-449a-499e-aa43-1a0edfdddca4" name="Changes" comment="" />
+      <created>1687873548142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687873548142</updated>
+      <workItem from="1687873549382" duration="6921000" />
+      <workItem from="1687914281543" duration="3734000" />
+      <workItem from="1687960753013" duration="5530000" />
+      <workItem from="1688000126734" duration="17908000" />
+      <workItem from="1688044965814" duration="660000" />
+      <workItem from="1688089403159" duration="58000" />
+      <workItem from="1688093126757" duration="1756000" />
+      <workItem from="1688098454556" duration="849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
