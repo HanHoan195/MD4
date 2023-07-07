@@ -40,11 +40,11 @@
       <div class="row">
         <div class="col-lg-6">
           <label>Current Balance</label>
-          <input type="text" class="form-control" th:field="*{customer.balance}" readonly>
+          <input type="text" class="form-control num-space" th:field="*{customer.balance}" readonly>
         </div>
         <div class="col-lg-6">
           <label>Transaction Amount</label>
-          <input type="number" class="form-control" name="transaction_Amount" >
+          <input type="number" class="form-control num-space" name="transaction_Amount" >
         </div>
       </div>
       <div class="row">
@@ -64,5 +64,6 @@
 
 </div>
 
+<th:block th:replace="layout/script" />
 </body>
 </html>

@@ -1,0 +1,94 @@
+{
+  "customers": [
+    {
+      "balance": 91000,
+      "id": 1,
+      "fullName": "Zephania Cohen",
+      "email": "saky@mailinator.com",
+      "phone": "+1 (416) 165-5496",
+      "deleted": 0,
+      "address": "Sapiente sint quas s"
+    },
+    {
+      "fullName": "Mariam Wooten",
+      "email": "rufafeq@mailinator.com",
+      "phone": "+1 (948) 923-3962",
+      "balance": "91000",
+      "deleted": 0,
+      "id": 2,
+      "address": "Dolore mollit aute q"
+    },
+    {
+      "fullName": "Amanda Hayden",
+      "email": "miqe@mailinator.com",
+      "phone": "+1 (335) 672-1463",
+      "balance": "90000",
+      "deleted": 0,
+      "id": 3,
+      "address": "Qui sunt eiusmod ull"
+    },
+    {
+      "fullName": "Merrill Macdonald",
+      "email": "bacalunaz@mailinator.com",
+      "phone": "+1 (605) 855-9722",
+      "balance": "91000",
+      "deleted": 0,
+      "id": 4,
+      "address": "Commodo dolorem labo"
+    },
+    {
+      "fullName": "Dylan Rasmussen",
+      "email": "tymacaroku@mailinator.com",
+      "phone": "+1 (302) 482-5602",
+      "address": "Do laboriosam quis ",
+      "balance": "2000",
+      "deleted": 0,
+      "id": 5
+    },
+    {
+      "fullName": "Geoffrey Lawrence",
+      "email": "moqyguwox@mailinator.com",
+      "phone": "+1 (471) 792-8276",
+      "address": "Maiores doloribus at",
+      "balance": 4000,
+      "deleted": 0,
+      "id": 6
+    },
+    {
+      "fullName": "Amber sđs",
+      "email": "fydokiniv@mailinator.com",
+      "phone": "+1 (949) 409-3408",
+      "address": "Minus culpa atque si",
+      "balance": 900,
+      "deleted": 0,
+      "id": 7
+    },
+    {
+      "fullName": "Shannon Noble",
+      "email": "wuvosebepy@mailinator.com",
+      "phone": "+1 (849) 905-2418",
+      "address": "Adipisicing autem la",
+      "balance": 1800,
+      "deleted": 0,
+      "id": 8
+    },
+    {
+      "fullName": "Margaret Ortiz",
+      "email": "vojog@mailinator.com",
+      "phone": "+1 (532) 596-3704",
+      "address": "Animi non est ex la",
+      "balance": 0,
+      "deleted": 0,
+      "id": 9
+    },
+    {
+      "fullName": "Charles Montoya",
+      "email": "fegofoca@mailinator.com",
+      "phone": "+1 (662) 867-6822",
+      "address": "Est ex adipisci rep",
+      "balance": 0,
+      "deleted": 0,
+      "id": 10
+    }
+  ]
+}

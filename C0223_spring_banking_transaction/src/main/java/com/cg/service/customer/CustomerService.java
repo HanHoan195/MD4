@@ -43,6 +43,7 @@ public class CustomerService implements ICustomerService{
         customerRepository.deleteById(id);
     }
 
+
     @Override
     public List<Customer> findAllByFullNameLike(String fullName) {
         return customerRepository.findAllByFullNameLike(fullName);
@@ -51,5 +52,15 @@ public class CustomerService implements ICustomerService{
     @Override
     public List<Customer> findAllByFullNameLikeOrEmailLikeOrPhoneLike(String fullName, String email, String phone) {
         return customerRepository.findAllByFullNameLikeOrEmailLikeOrPhoneLike(fullName, email, phone);
+    }
+
+    @Override
+    public List<Customer> findAllByDeletedIsFalse() {
+        return customerRepository.findAllByDeletedIsFalse();
+    }
+
+    @Override
+    public List<Customer> findAllByIdNot(Long id) {
+        return customerRepository.findAllByIdNot(id);
     }
 }

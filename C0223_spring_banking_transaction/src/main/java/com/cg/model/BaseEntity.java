@@ -4,6 +4,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.validation.Errors;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
@@ -70,4 +71,7 @@ public abstract class BaseEntity {
     }
 
 
+    public abstract boolean supports(Class<?> aClass);
+
+    public abstract void validate(Object target, Errors errors);
 }

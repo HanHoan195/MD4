@@ -9,4 +9,8 @@ import java.util.List;
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
     List<Customer> findAllByFullNameLike(String fullName);
     List<Customer> findAllByFullNameLikeOrEmailLikeOrPhoneLike(String fullName, String email, String phone);
+
+    List<Customer> findAllByDeletedIsFalse();
+    List<Customer> findAllByIdNot(Long id);
+
 }

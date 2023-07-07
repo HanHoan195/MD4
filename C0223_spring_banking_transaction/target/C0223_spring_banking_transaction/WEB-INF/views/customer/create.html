@@ -25,16 +25,18 @@
 
     </header>
 
-        <div class="content">
-            <form class="row" th:object="${customer}" method="post">
+    <div class="content">
+        <form class="row" th:object="${customer}" method="post">
             <div class="row">
                 <div class="col-lg-6">
                     <label>Full Name</label>
                     <input type="text" class="form-control" name="fullName">
+                    <!--                    <span th:if="${#fields.hasErrors('fullName')}" th:errors="*{fullName}">Name Error</span>-->
                 </div>
                 <div class="col-lg-6">
                     <label>Email</label>
                     <input type="email" class="form-control" name="email">
+                    <!--                    <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Name Error</span>-->
                 </div>
             </div>
 
@@ -64,12 +66,26 @@
                     </a>
                 </div>
             </div>
-            </form>
-        </div>
-
-
-
+        </form>
+    </div>
 </div>
+
+<footer class="alert alert-danger">
+    <div class="container">
+        <div class="error-area">
+            <th:block th:if="${hasError} == true">
+                <ul>
+                    <li th:each="err : ${#fields.errors('customer.*')}" th:text="${err}"></li>
+                </ul>
+            </th:block>
+            <th:block th:if="${notValid} == true">
+                <ul>
+                    <li th:text="${message}"></li>
+                </ul>
+            </th:block>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

@@ -1,5 +1,7 @@
 package com.cg.model;
 
+import org.springframework.validation.Errors;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
@@ -47,5 +49,15 @@ public class Withdraw extends BaseEntity{
 
     public void setTransaction_Amount(BigDecimal transaction_Amount) {
         this.transaction_Amount = transaction_Amount;
+    }
+
+    @Override
+    public boolean supports(Class<?> aClass) {
+        return false;
+    }
+
+    @Override
+    public void validate(Object target, Errors errors) {
+
     }
 }

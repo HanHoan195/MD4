@@ -10,4 +10,5 @@ public interface IGeneralService<E, T>{
 //    E save(Optional<E> e);
     void delete(E e);
     void deleteById(T id);
+
 }

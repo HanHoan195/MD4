@@ -1,5 +1,7 @@
 package com.cg.model;
 
+import org.springframework.validation.Errors;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
@@ -49,5 +51,15 @@ public class Deposits extends BaseEntity {
 
     public Long getId() {
         return id;
+    }
+
+    @Override
+    public boolean supports(Class<?> aClass) {
+        return false;
+    }
+
+    @Override
+    public void validate(Object target, Errors errors) {
+
     }
 }
